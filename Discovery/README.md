@@ -7,7 +7,6 @@
 - **Medium:** Zoom meeting
 
 
-## [MeetingNotes.jepg](https://github.com/ChanRathke/PortfolioSentinel/blob/master/Discovery/MeetingNotes.jpeg):
+## [MeetingNotes.jpeg](https://github.com/ChanRathke/PortfolioSentinel/blob/master/Discovery/MeetingNotes.jpeg):
 - Copy of Chandler's notes from the discovery meeting.
-
 
