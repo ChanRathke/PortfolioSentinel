@@ -10,3 +10,5 @@
 ## [MeetingNotes.jpeg](https://github.com/ChanRathke/PortfolioSentinel/blob/master/Discovery/MeetingNotes.jpeg):
 - Copy of Chandler's notes from the discovery meeting.
 
+## [DiscoveryMeeting.png](https://github.com/ChanRathke/PortfolioSentinel/blob/master/Discovery/DiscoveryMeeting.png):
+- Screenshot of the meeting taking place.
