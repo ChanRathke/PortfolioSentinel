@@ -1,14 +1,16 @@
-# CapstoneProjectTemplate /* Replace this line with the title of your project */
+# Portfolio Sentinel
 
 ## **Summary**
 
-Put a very high-level summary of the project.
+
 
 ## **Team Members**
 
-- Joe Black
-- Joe Pesci
-- Joe Dalton
+- Chandler Rathke
+- Dennis Vo
+- Mason Leffel
+- Antone Thygerson
+- Edgar Arvizu
 
 ## **Client Partner Information**
 
@@ -20,7 +22,6 @@ WHATEVER COMPANY or CORRESPONDENCE
 - Jane Lynch
 
 ## **Links**
-
 - [Project description](ProjectDescription.md)
 - [Team meeting minutes](MeetingMinutes/Team)
 - [Mentor meeting minutes](MeetingMinutes/Mentor)
@@ -28,7 +29,6 @@ WHATEVER COMPANY or CORRESPONDENCE
 - ... any other documents/links you see need
 
 ## **Code Repositories**
-
 - [Mobile App - Android](https://www.github.com/WHEREEVER_THE_ANDROID_CODE_IS/)
 - [Php Backend](https://www.github.com/WHEREEVER_THE_PHP_CODE_IS)
 - Others if more.
