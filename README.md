@@ -15,11 +15,11 @@
 ## **Client Partner Information**
 
 ### *Company:*
-WHATEVER COMPANY or CORRESPONDENCE
+Accutech
 
 ### *People:*
-- Jane Fonda
-- Jane Lynch
+- Matt Garrett
+- Drew Heiss
 
 ## **Links**
 - [Project description](ProjectDescription.md)
