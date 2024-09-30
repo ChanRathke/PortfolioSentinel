@@ -20,5 +20,6 @@ Domain: Financial
 Objects: Database of Portfolios, Portfolios, Generative AI, Email Draft
 
 • TechStack
+.NET and vue
 
 • Prototype
