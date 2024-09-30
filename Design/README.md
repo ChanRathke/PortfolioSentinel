@@ -17,3 +17,6 @@
 
 ## [UseCases.md](https://github.com/ChanRathke/PortfolioSentinel/blob/master/Design/UseCases.md):
 - List of use cases for the project
+
+## [DomainModel.md](https://github.com/ChanRathke/PortfolioSentinel/blob/master/Design/DomainModel.md)
+- Domain Model for the project
