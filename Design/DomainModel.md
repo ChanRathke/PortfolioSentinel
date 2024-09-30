@@ -1,5 +1,18 @@
 # Domain Model
-(insert model here when it's done)
+```mermaid
+classDiagram
+      Document -- Controller
+      Controller -- API
+      Document -- Trigger
+      Document <|-- Client
+      FrontEnd <|-- Client
+      FrontEnd <|-- Advisor
+      Advisor --|> Client
+      Trigger --|> Controller 
+      EmailClass -- Controller
+      EmailClass -- API
+      API -- Llama
+```
 
 ## Classes
 ### AdvisorInformation
