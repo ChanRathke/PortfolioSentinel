@@ -1,5 +1,8 @@
 # Design
 
+## [Architecture.md](https://github.com/ChanRathke/PortfolioSentinel/blob/master/Design/Architecture.md):
+- UML class diagram of the architecture of the program
+
 ## [BusinessRequirements.md](https://github.com/ChanRathke/PortfolioSentinel/blob/master/Design/BusinessRequirements.md):
 - List of business requirements from the client that will guide the project
 
