@@ -1,5 +1,10 @@
 # Business Requirements
 
-- ## **BR1**
-  The program will take an input of information from a source on the internet to then summarize the information with a generative AI
-  and rely that to the chosen advisor. 
+- ## **BR1** - Generative AI
+  A generative AI is required to summarize and generate information based on a client's financial needs
+  
+- ## **BR2** - Advisor and Client
+  The full name of each advisor and the clients that they manage will be required in order to sort who
+  receives the email of information
+
+  
