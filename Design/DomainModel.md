@@ -1,17 +1,20 @@
 # Domain Model
 ```mermaid
 classDiagram
-      Document -- Controller
-      Controller -- API
-      Document -- Trigger
-      Document <|-- Client
-      FrontEnd <|-- Client
-      FrontEnd <|-- Advisor
+      Document <|-- Controller
+      Controller --|> API
+      Document --|> Trigger
+      Document --|> Client
+      FrontEnd --|> Client
+      FrontEnd --|> Advisor
       Advisor --|> Client
       Trigger --|> Controller 
-      EmailClass -- Controller
-      EmailClass -- API
-      API -- Llama
+      EmailClass <|-- Controller
+      EmailClass <|-- API
+      API <|--|> Llama
+      Document --|> Stock
+      Document --|> Mutual Fund
+      Mutual Fund --|> Stock
 ```
 
 ## Classes
@@ -31,3 +34,9 @@ classDiagram
 - Checks if new quarterly statements are out
 ### Llama 
 - Generative AI tool
+### Document
+- Collection of portfolio related assets that pertain to the client
+### Stock
+- Financial Asset
+### Mutual Fund
+- Collection of stocks/ bonds
