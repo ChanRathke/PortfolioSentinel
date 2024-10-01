@@ -4,56 +4,71 @@
         - create new advisor medium
         - delete advisor medium
         - list of clients linked to advisor high
+  - BR2 
 - FR2: Client management
         - retrieve client information and link to portfolio high
         - create new clients medium
         - delete clients medium
+  - BR2
 - FR3: Document management
         - retreieve advisor email high
         - retrieve quarterly statements for client and advisor high
         - trigger when new documents are available high
+  - BR2
 - FR4: Email notification
         - retrieve advisor email medium
         - generate and send emails to advisor when new documents are available high
+  - BR1
 - FR5: API integration
         - system retrieve summary of stock information by external AI API medium
         - request from controller and fetch data high
+  - BR1
 - FR6: trigger
         - system checks for quarterly documents high
         - system initaite the process of notifying relevent parties when new document is available high
+  - BR1
 - FR7: Controller
         - system handling communication between UI, Advisor, client, and document, and API high
+  - BR1 + 2
 - FR8: frontend interface
         - frontend prompt the user for advisor and client high
         - system allowing the user to trigger document checks and sends emails through interface high
+  - BR2
 - FR9: Llama AI
         - system must integrate with llama AI to retrieve relevent stock summaries based on inputs from API medium
+  - BR1
 
 
 ## Nonfunctional Requirements
 - NR1: Performance
-        - retrieve advisor and client information from database with no delay high
+        - retrieve advisor and client information from database with no delay
+  - High
+  - BR2
 - NR2: Scalability
-        - system should be able to handle a growing number of advisors and clients and documents medium
+        - system should be able to handle a growing number of advisors and clients and documents
+  - Medium
+  - BR2
 - NR3: Secuirty
-        - advisor and client information to be stored and transferred securely high
+        - advisor and client information to be stored and transferred securely
+  - High
+  - BR2
 - NR4: Reliablity
-        - system must reliably detect ad trigger alerts for new documents high
+        - system must reliably detect ad trigger alerts for new documents
+  - High
+  - BR1
 - NR5: Usability
-        - frontend interface to be intuitive for users, input for clients and advisors details and managing document triggers high
+        - frontend interface to be intuitive for users, input for clients and advisors details and managing document triggers
+  - High
+  - BR2
 - NR6: Maintainability
-        - system architecture should be modular for easy maintenance and updates to individual components like APi, EmailClass and controller medium
+        - system architecture should be modular for easy maintenance and updates to individual components like APi, EmailClass and controller
+  - Medium
+  - BR1
 - NR7: Integration
-        - API and controller have an effectively manage interaction with external services medium
+        - API and controller have an effectively manage interaction with external services
+  - Medium
+  - BR1
 - NR8: Data accuracy
-        - system ensure accurate retrieval and representation of document, advisor, and client high
-
-
-
-
-Ideas for requirements from DesignDraft:
--Default prompt for generative AI summary
--Default prompt for email
--API 
--Generative AI describes changes.
--A generative AI can describe why a change occurred in a portfolio.
+        - system ensure accurate retrieval and representation of document, advisor, and client
+  - High
+  - BR2
