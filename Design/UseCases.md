@@ -33,7 +33,6 @@
   2. The system gathers relevant market data and client portfolio details
   3. Sends the data to Llama for analysis
   4. Llama generates a detailed summary of the portfolio's performance
-  5. The report is automatically emailed to the advisor for their review
 - **Business Requirement:** BR1
 
 ### UC4: Automated Emails to Advisor
