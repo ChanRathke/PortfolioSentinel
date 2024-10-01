@@ -2,7 +2,7 @@
 ## Meeting start time
 - 11:05 AM
 ## Meeting end time
-- 11:30
+- 11:45 AM
 ## Medium
 - Discord call
 
