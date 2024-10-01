@@ -11,7 +11,7 @@
   
   1. The system checks for changes in the portfolio quarterly
   2. The system retrieves relevant information and checks for new quarterly statements
-  3. The Controller communicates with the API and Llama AI to create an analysis of these changes.
+  3. The Controller communicates with the API and Llama to create an analysis of these changes
   4. The summary is emailed to the client
 - **Business Requirement:** BR1, BR2
 
