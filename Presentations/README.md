@@ -2,7 +2,7 @@
 
 Any presentation you made will be put here right after the presentation. The following is a list of presentations you have to put. You can see the schedule of these in the syllabus on Canvas.
 
-- [Design Presentation](https://github.com/ChanRathke/PortfolioSentinel/edit/master/Presentations/Design_Day.pptx)
+- [Design Presentation](https://github.com/ChanRathke/PortfolioSentinel/blob/master/Presentations/Design%20Day.pptx)
 - First Iteration Presentation
 - Second Iteration Presentation
 - Third Iteration Presentation
