@@ -1,21 +1,61 @@
 # Domain Model
 ```mermaid
 classDiagram
-      Document <|-- Controller
-      Controller --|> API
-      Document --|> Trigger
-      Document --|> Client
-      FrontEnd --|> Client
-      FrontEnd --|> Advisor
-      Advisor --|> Client
-      Trigger --|> Controller 
-      EmailClass <|-- Controller
-      EmailClass <|-- API
-      API <|--|> Llama
-      Document --|> Stock
-      Document --|> Mutual Fund
-      Mutual Fund --|> Stock
+Document <|-- Controller
+Controller --|> API
+Document --|> Trigger
+Document --|> Client
+FrontEnd --|> Client
+FrontEnd --|> Advisor
+Advisor --|> Client
+Trigger --|> Controller 
+EmailClass <|-- Controller
+EmailClass <|-- API
+API <|--|> Llama
+Document --|> Stock
+Document --|> MutualFund
+Mutual Fund --|> Stock
+class Advisor {
+      advisorName: String
+      email: String
+      clients: Client[]
+      addClient()
+      removeClient(Client)
+      getEmail(): String
+}
+class Client {
+      clientName: String
+      advisor: Advisor
+      portfolio: Document
+      getAdvisor(): Advisor
+      setAdvisor(Advisor)
+      getClientPortfolio(): Document
+}
+class Document {
+      stocks: Stock[]
+      mutualFunds: MutualFund[]
+      client: Client
+      getStocks(): Stock[]
+      getMutualFunds(): MutualFund[]
+      getClient(): Client
+}
+class Trigger {
+      checkQuarterly(Stock): Boolean
+      checkQuarterly(MutualFund): Boolean
+}
+class FrontEnd {
+      getClientInfo(): Client
+      getAdvisorInfo(): Advisor
+}
+class API{
+      getSummary(Stock)
+}
+class EmailClass {
+      sendEmail(Advisor, String)
+}
+
 ```
+
 
 ## Classes
 ### AdvisorInformation
