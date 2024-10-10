@@ -13,7 +13,7 @@
   2. The system retrieves relevant information and checks for new quarterly statements
   3. The Controller communicates with the API and Llama to create an analysis of these changes
   4. The summary is emailed to the client
-- **Business Requirement:** BR1, BR2
+- **Business Requirement:** BR1
 
 ### UC2: View Advisor's Clients
 - **Primary Actors:** Advisor
@@ -23,7 +23,7 @@
   2. The advisor can view their profile and their clients' information
   3. The system retrieves and displays the client portfolio details
   4. The advisor can then use this information to inform or update the client
-- **Business Requirement:** BR2
+- **Business Requirement:** BR1
 
 ### UC3: Generate Quarterly Portfolio Summary
 - **Primary Actors:** Llama
@@ -43,4 +43,4 @@
   2. The system automatically formats the summary into an email
   3. The system uses an email service to send the summary to the advisor's registered email
   4. The advisor receives the email with the portfolio summary for their review
-- **Business Requirement:** BR2
+- **Business Requirement:** BR1
