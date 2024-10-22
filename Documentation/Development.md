@@ -11,3 +11,24 @@ This document will have a special section on how to test and how to interpret th
 
 Testing criteria for this document:
 A regular developer will be able to replicate the development environment and run locally by just following this document.
+
+
+# Development
+
+## Tech Aspects
+- Vue
+- .Net with C#
+- Docker Desktop
+- BitBucket
+
+## IDE
+- Visual Studio Code
+- Gemini 
+
+## Install Prerequisites
+- Install [.NET (v8.0)](https://dotnet.microsoft.com/en-us/download)
+- Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+## Create a Clone
+- Run `git clone https://bitbucket.org/accutechcapstone/bsu.portfoliosentinel.git` to retrieve the repo
+- Open the project in Visual Studio Code
