@@ -1,18 +1,3 @@
-This document will explain to a regular developer how to replicate your development environment.
-  Explaining the tech aspects of the system.
-  Explaining what kind of technologies are needed to replicate and how.
-  Required IDEs, frameworks, etc.
-  Explaining folder structure in the code repositories and what they mean.
-  Explaining important files, such as config files.
-
-This document will have a special section on how to test and how to interpret the result.
-  Running might be as simple as running a command or clicking some menu items.
-  Interpreting might be as simple as showing a sample testing report and explaining different parts of it.
-
-Testing criteria for this document:
-A regular developer will be able to replicate the development environment and run locally by just following this document.
-
-
 # Development
 
 ## Tech Aspects
@@ -23,12 +8,22 @@ A regular developer will be able to replicate the development environment and ru
 
 ## IDE
 - Visual Studio Code
-- Gemini 
+- Gemini AI
 
 ## Install Prerequisites
 - Install [.NET (v8.0)](https://dotnet.microsoft.com/en-us/download)
-- Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+  
+  ![net](https://github.com/user-attachments/assets/aca0acd0-f5f8-4872-bd8f-bec6b8dc5461)
 
-## Create a Clone
-- Run `git clone https://bitbucket.org/accutechcapstone/bsu.portfoliosentinel.git` to retrieve the repo
-- Open the project in Visual Studio Code
+  
+- Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
+  
+  ![image](https://github.com/user-attachments/assets/fa05e045-3bdf-430d-a629-f8d0f1d6fc1c)
+
+  
+
+## Create a Clone Repository
+- If you will contribute, fork this repository first and clone your copies.
+- Run `git clone https://bitbucket.org/accutechcapstone/bsu.portfoliosentinel.git` to retrieve the repo and save it where you'd like
+- Open the project either through the command line or opening the folder 
+
