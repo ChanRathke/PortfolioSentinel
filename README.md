@@ -1,7 +1,7 @@
 # Portfolio Sentinel
 
 ## **Summary**
-
+Portfolio Sentinel is a program that will provide the user with information based on recent changes of stocks and an explanation as to why it occurred. The users will receive a quarterly update in an email format from the program to will keep them updated on the current state. 
 
 
 ## **Team Members**
