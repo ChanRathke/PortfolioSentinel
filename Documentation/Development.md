@@ -32,6 +32,7 @@
 - Open the terminal of the project and run the following commands:
     - `npm install`
     - `npm install axios`
+    - `npm install flask`
     - `npm install vite`
 ## To Run the Program
 - Open the terminal
