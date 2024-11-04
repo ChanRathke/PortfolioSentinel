@@ -27,9 +27,15 @@
 - If you will contribute, fork this repository first and clone your copies.
 - Run `git clone https://bitbucket.org/accutechcapstone/bsu.portfoliosentinel.git` to retrieve the repo and save it where you'd like
 
-## Running the Program
+## Preparing to Run the Program
 - Open the project either through the command line or opening the folder 
-- Open the terminal of the project and run `pip install torch`
-- When using Docker, the user may have to include the following:
-  - `docker compose build`
-  - `docker compose up`
+- Open the terminal of the project and run the following commands:
+    - `pip install torch`
+    - `npm install axios`
+    - `npm install vite`
+## To Run the Program
+- Open the terminal
+- Change the directory into the Frontend folder: `cd test-api`
+- Run the following code: `npm run dev`
+- Open the browser by either clicking on the link provided by "Local:" or entering it into your browser manually
+    - It should look like this `Local:   http://localhost:5173/`
