@@ -1,41 +1,30 @@
 ## Functional Requirements
 - FR1: Advisor management
-        - retrieve advisor information high
-        - create new advisor medium
-        - delete advisor medium
-        - list of clients linked to advisor high
+        - retrieve advisor information (and their clients): high priority
   - UC2 
 - FR2: Client management
-        - retrieve client information and link to portfolio high
-        - create new clients medium
-        - delete clients medium
+        - retrieve client information and link to portfolio: high priority
   - UC1
 - FR3: Document management
-        - retreieve advisor email high
-        - retrieve quarterly statements for client and advisor high
-        - trigger when new documents are available high
+        - retrieve quarterly statements for client and advisor: high priority
   - UC1
 - FR4: Email notification
-        - retrieve advisor email medium
-        - generate and send emails to advisor when new documents are available high
+        - generate and send emails to advisor when new documents are available: high priority
   - UC4
 - FR5: API integration
-        - system retrieve summary of stock information by external AI API medium
-        - request from controller and fetch data high
+        - system retrieve summary of stock information by external AI API: medium priority
   - UC1
-- FR6: trigger
-        - system checks for quarterly documents high
-        - system initaite the process of notifying relevent parties when new document is available high
+- FR6: Trigger
+        - system initaites the process of notifying relevent parties when new quarterly document is available: high priority
   - UC4
 - FR7: Controller
-        - system handling communication between UI, Advisor, client, and document, and API high
+        - system handling communication between UI, Advisor, client, and document, and API: high priority
   - UC1
-- FR8: frontend interface
-        - frontend prompt the user for advisor and client high
-        - system allowing the user to trigger document checks and sends emails through interface high
+- FR8: Frontend interface
+        - user can select a number of stocks to gain informatiom on: high priority
   - UC4
-- FR9: Llama AI
-        - system must integrate with llama AI to retrieve relevent stock summaries based on inputs from API medium
+- FR9: Gemini AI
+        - system must integrate with gemini AI to retrieve relevent stock summaries based on inputs from API: high priority
   - UC3
 
 
