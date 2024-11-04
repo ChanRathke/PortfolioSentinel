@@ -2,8 +2,7 @@
 
 ## Tech Aspects
 - Vue
-- .Net with C#
-- Docker Desktop
+- Python
 - BitBucket
 
 ## IDE
