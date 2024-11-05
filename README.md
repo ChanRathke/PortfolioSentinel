@@ -26,8 +26,7 @@ Accutech
 - [Team meeting minutes](MeetingMinutes/Team)
 - [Mentor meeting minutes](MeetingMinutes/Mentor)
 - [Client partner meeting minutes](MeetingMinutes/ClientPartner)
-- [ProjectManagement](https://github.com/users/ChanRathke/projects/1)
-- ... any other documents/links you see need
+- [Project Management](https://github.com/users/ChanRathke/projects/1)
 
 ## **Code Repositories**
 - Others if more.
