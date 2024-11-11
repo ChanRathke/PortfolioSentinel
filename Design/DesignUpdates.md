@@ -1,3 +1,4 @@
+##**Tech Stack:** Nothing changed from original submission.
 ##**Architecture:** Changed reference from LLama AI to Gemini and Alpha Vantage
 ## **Old:**
 - ![image](https://github.com/user-attachments/assets/e0cfe58f-43b4-4d61-bd6c-e6f7b2eb47e7)
