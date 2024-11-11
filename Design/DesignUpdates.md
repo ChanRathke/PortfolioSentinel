@@ -108,5 +108,8 @@ class Stock {
       name: String
 }
 ```
-**Use Cases:** Replaced all references to Llama with references to Gemini / Alpha Vantage
+##**Use Cases:** Replaced all references to Llama with references to Gemini / Alpha Vantage
 
+##**Business Requirements:** Updated BR1 based on instructor feedback.
+**Old:** A generative AI will summarize information and update the client based on their needs.
+**New:** Keep Advisors updated on changes within their clientelles investments so that they can more easily inform their client about it.
