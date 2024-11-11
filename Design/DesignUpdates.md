@@ -1,11 +1,11 @@
 ## **Architecture:** Changed reference from LLama AI to Gemini and Alpha Vantage
-## **Old:**
+### **Old:**
 - ![image](https://github.com/user-attachments/assets/e0cfe58f-43b4-4d61-bd6c-e6f7b2eb47e7)
-## **New:**
+### **New:**
 - ![image](https://github.com/user-attachments/assets/3c993ae7-da68-4380-8d7b-5a4fb7f7be6f)
 
 ## **Domain Model:** Editted based on instructor feedback, removing references to APIs / Controllers. 
-- **Old:**
+### **Old:**
 ```mermaid
 classDiagram
 Document <|-- Controller
@@ -61,7 +61,7 @@ class EmailClass {
       sendEmail(Advisor, String)
 }
 ```
-- **New:**
+### **New:**
 ```mermaid
 classDiagram
 Document <|-- Client
@@ -111,11 +111,13 @@ class Stock {
 ## **Use Cases:** Replaced all references to Llama with references to Gemini / Alpha Vantage
 
 ## **Business Requirements:** Updated BR1 based on instructor feedback.
-- **Old:** A generative AI will summarize information and update the client based on their needs.
-- **New:** Keep Advisors updated on changes within their clientelles investments so that they can more easily inform their client about it.
+### **Old:** 
+- A generative AI will summarize information and update the client based on their needs.
+### **New:** 
+- Keep Advisors updated on changes within their clientelles investments so that they can more easily inform their client about it.
 
 ## **Tech Stack:** Replaced reference to Llama with gemini.  Added reference to python.
-- **Old:**
+### **Old:**
 - Llama
   - [Llama](https://huggingface.co/meta-llama/Llama-3.2-3B)
   - A collection of pretrained generative models. This was the AI model recommended by our mentor for the use as our generative AI.
@@ -128,7 +130,7 @@ class Stock {
 ## **Functional Requirements: ** Swapped llama with gemini.  Split requirements based on instructor feedback.
 Requirements.md
 
-- **Old:**
+### **Old:**
 - FR1: Advisor management
         - retrieve advisor information high
         - create new advisor medium
@@ -167,7 +169,7 @@ Requirements.md
 - FR9: Llama AI
         - system must integrate with llama AI to retrieve relevent stock summaries based on inputs from API medium
   - UC3
-- **New:**
+### **New:**
 - FR1: Advisor management
         - retrieve advisor information (and their clients): high priority
   - UC2 
