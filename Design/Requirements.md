@@ -35,7 +35,11 @@
         - system must integrate with gemini AI to retrieve relevent stock summaries based on inputs from API:
   - High priority
   - UC3
-
+- FR10: Alpha Vantage API
+        - system must integrate with alpha vantage API to retrieve relevant stock/news data.
+  - High priority
+  - UC3     
+    
 
 ## Nonfunctional Requirements
 - NR1: Performance
