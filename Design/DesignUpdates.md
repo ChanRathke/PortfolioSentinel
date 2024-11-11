@@ -1,11 +1,11 @@
-##**Architecture:** Changed reference from LLama AI to Gemini and Alpha Vantage
+## **Architecture:** Changed reference from LLama AI to Gemini and Alpha Vantage
 ## **Old:**
 - ![image](https://github.com/user-attachments/assets/e0cfe58f-43b4-4d61-bd6c-e6f7b2eb47e7)
 ## **New:**
 - ![image](https://github.com/user-attachments/assets/3c993ae7-da68-4380-8d7b-5a4fb7f7be6f)
 
-##**Domain Model:** Editted based on instructor feedback, removing references to APIs / Controllers. 
-##**Old:**
+## **Domain Model:** Editted based on instructor feedback, removing references to APIs / Controllers. 
+## **Old:**
 ```mermaid
 classDiagram
 Document <|-- Controller
