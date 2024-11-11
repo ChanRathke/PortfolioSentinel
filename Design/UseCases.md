@@ -1,7 +1,7 @@
 # Actors
 - Client
 - Advisor
-- Llama
+- Gemini
 - Email Service
 
 # Use Cases
