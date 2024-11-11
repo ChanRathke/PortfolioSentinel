@@ -8,8 +8,8 @@
 
 - .Net and C#
   - [.Net](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
-  - [C# Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/)
-  - .Net and C# are going to be used for the back-end code. Both are popular frameworks with developers and have a number of
+  - [Python Documentation](https://www.python.org/doc/)
+  - .Net and Python are going to be used for the back-end code. Both are popular frameworks with developers and have a number of
     sources and libraries that can be learned from. Accutech has used these for previous projects, therefore, using these
     will benefit them long after we are finished. 
 
