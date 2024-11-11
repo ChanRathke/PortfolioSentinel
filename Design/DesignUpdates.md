@@ -127,7 +127,7 @@ class Stock {
   - A collection of pretrained generative models. This was the AI model recommended by our client for the use as our generative AI.
 - .Net and Python
 
-## **Functional Requirements: ** Swapped llama with gemini.  Split requirements based on instructor feedback.
+## **Functional Requirements:** Swapped llama with gemini.  Split requirements based on instructor feedback.
 Requirements.md
 
 ### **Old:**
