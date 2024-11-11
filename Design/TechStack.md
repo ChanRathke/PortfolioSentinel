@@ -13,6 +13,7 @@
     sources and libraries that can be learned from. Accutech has used these for previous projects, therefore, using these
     will benefit them long after we are finished. 
 
-- Llama
-  - [Llama](https://huggingface.co/meta-llama/Llama-3.2-3B)
-  - A collection of pretrained generative models. This was the AI model recommended by our mentor for the use as our generative AI. 
+- Gemini
+  - [Gemini](https://gemini.google.com/)
+  - A collection of pretrained generative models. This was the AI model recommended by our client for the use as our generative AI. 
+
