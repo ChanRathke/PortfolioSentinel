@@ -5,7 +5,7 @@
 - ![image](https://github.com/user-attachments/assets/3c993ae7-da68-4380-8d7b-5a4fb7f7be6f)
 
 ## **Domain Model:** Editted based on instructor feedback, removing references to APIs / Controllers. 
-## **Old:**
+- **Old:**
 ```mermaid
 classDiagram
 Document <|-- Controller
@@ -61,7 +61,7 @@ class EmailClass {
       sendEmail(Advisor, String)
 }
 ```
-## **New:**
+- **New:**
 ```mermaid
 classDiagram
 Document <|-- Client
