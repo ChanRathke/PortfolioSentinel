@@ -1,4 +1,4 @@
 # Business Requirements
 
-- ## **BR1** 
-  A generative AI will summarize information and update the client based on their needs.
+## **BR1** 
+- Keep Advisors updated on current stock trends based on their clientelles investments.
