@@ -26,13 +26,13 @@
 - **Business Requirement:** BR1
 
 ### UC3: Generate Quarterly Portfolio Summary
-- **Primary Actors:** Llama
-- One of our main business requirements was generating a quarterly portfolio summary. This involves using Llama to generate a detailed analysis of each client’s portfolio. The generated summary is then automatically sent to the advisor, allowing them to review and share the relevant information with their clients.
+- **Primary Actors:** Gemini
+- One of our main business requirements was generating a quarterly portfolio summary. This involves using Gemini to generate a detailed analysis of each client’s portfolio. The generated summary is then automatically sent to the advisor, allowing them to review and share the relevant information with their clients.
 
   1. The system triggers the quarterly summary generation
   2. The system gathers relevant market data and client portfolio details
-  3. Sends the data to Llama for analysis
-  4. Llama generates a detailed summary of the portfolio's performance
+  3. Sends the data to Gemini for analysis
+  4. Gemini generates a detailed summary of the portfolio's performance
 - **Business Requirement:** BR1
 
 ### UC4: Automated Emails to Advisor
