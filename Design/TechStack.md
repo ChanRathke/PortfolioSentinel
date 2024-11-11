@@ -6,7 +6,7 @@
     Other projects from Accutech use Vue, so building in a familiar framework for them will allow them to
     build off of the project after we have finished our work.
 
-- .Net and C#
+- .Net and Python
   - [.Net](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
   - [Python Documentation](https://www.python.org/doc/)
   - .Net and Python are going to be used for the back-end code. Both are popular frameworks with developers and have a number of
