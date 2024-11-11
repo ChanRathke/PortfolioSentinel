@@ -1,82 +1,64 @@
 # Domain Model
 ```mermaid
 classDiagram
-Document <|-- Controller
-Controller --|> API
-Document --|> Trigger
-Document --|> Client
-FrontEnd --|> Client
-FrontEnd --|> Advisor
+Document <|-- Client
 Advisor --|> Client
-Trigger --|> Controller 
-EmailClass <|-- Controller
-EmailClass <|-- API
-API <|--|> Llama
+Email --|> Advisor
 Document --|> Stock
 Document --|> MutualFund
-Mutual Fund --|> Stock
+Document --|> Email
+Stock --|> Summary
+MutualFund --|> Summary
+Summary --|> Email
+Mutual Fund <|-- Stock
 class Advisor {
+      id: String
       advisorName: String
-      email: String
+      advisorEmail: String
       clients: Client[]
-      addClient()
-      removeClient(Client)
-      getEmail(): String
 }
 class Client {
+      id: String
       clientName: String
       advisor: Advisor
+      clientEmail: String
       portfolio: Document
-      getAdvisor(): Advisor
-      setAdvisor(Advisor)
-      getClientPortfolio(): Document
 }
 class Document {
       stocks: Stock[]
       mutualFunds: MutualFund[]
       client: Client
+}
+class Email {
+      sendEmail(Advisor, Summary)
+}
+class Summary {
+      summary: String
+      generateSummary(Stock): String
+}
+class MutualFund {
+      name: String
       getStocks(): Stock[]
-      getMutualFunds(): MutualFund[]
-      getClient(): Client
 }
-class Trigger {
-      checkQuarterly(Stock): Boolean
-      checkQuarterly(MutualFund): Boolean
+class Stock {
+      ticker:  String
+      name: String
 }
-class FrontEnd {
-      getClientInfo(): Client
-      getAdvisorInfo(): Advisor
-}
-class API{
-      getSummary(Stock)
-}
-class EmailClass {
-      sendEmail(Advisor, String)
-}
-
 ```
 
 
 ## Classes
-### AdvisorInformation
-- Retrieves the advisor information and matches it to their clients
-### ClientInformation
-- Retrieves the client information and matches it to their portfolio
-### Controller
-- Processes requests between all the other aspects of the domain
-### API
-- Processes requests between the Controller and the Llama AI
-### FrontEnd
-- An admin terminal to help test the API
-### EmailClass
-- Summarizes the information from the AI prompt and then sends it as an email
-### Trigger
-- Checks if new quarterly statements are out
-### Llama 
-- Generative AI tool
+### Advisor
+- A financial advisor at the company.  Can potentially have many clients.
+### Client
+- A client of the advising company.  Will only have one Advisor.
+### Email
+- A summary of the stock data that is emailed to the advisor.  It is only sent to the advisor, not the client.
 ### Document
-- Collection of portfolio related assets that pertain to the client
+- A collection of portfolio related assets that pertain to the client.  Would include Stocks and Mutual Funds, and a client and advisor identifier.
 ### Stock
-- Financial Asset
+- A financial Asset that is owned by the client, and managed by the advisor.
 ### Mutual Fund
-- Collection of stocks/ bonds
+- A collection of stocks/ bonds.  Like stocks, they are owned by the client but are managed by the advisor.
+### Summary
+- A summary of the changes to a stock/mutual fund.  The summary is generated through a combined use of stock data and generative AI, and then emailed to the financial advisor.
