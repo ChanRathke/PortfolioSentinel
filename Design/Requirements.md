@@ -1,30 +1,39 @@
 ## Functional Requirements
 - FR1: Advisor management
-        - retrieve advisor information (and their clients): high priority
+        - retrieve advisor information (and their clients):
+  - High priority
   - UC2 
 - FR2: Client management
-        - retrieve client information and link to portfolio: high priority
+        - retrieve client information and link to portfolio:
+  - High priority
   - UC1
 - FR3: Document management
-        - retrieve quarterly statements for client and advisor: high priority
+        - retrieve quarterly statements for client and advisor:
+  - High priority
   - UC1
 - FR4: Email notification
-        - generate and send emails to advisor when new documents are available: high priority
+        - generate and send emails to advisor when new documents are available:
+  - High priority
   - UC4
 - FR5: API integration
-        - system retrieve summary of stock information by external AI API: medium priority
+        - system retrieve summary of stock information by external AI API:
+  - Medium priority
   - UC1
 - FR6: Trigger
-        - system initaites the process of notifying relevent parties when new quarterly document is available: high priority
+        - system initaites the process of notifying relevent parties when new quarterly document is available:
+  - High priority
   - UC4
 - FR7: Controller
-        - system handling communication between UI, Advisor, client, and document, and API: high priority
+        - system handling communication between UI, Advisor, client, and document, and API:
+  - High priority
   - UC1
 - FR8: Frontend interface
-        - user can select a number of stocks to gain informatiom on: high priority
+        - user can select a number of stocks to gain informatiom on:
+  - High priority
   - UC4
 - FR9: Gemini AI
-        - system must integrate with gemini AI to retrieve relevent stock summaries based on inputs from API: high priority
+        - system must integrate with gemini AI to retrieve relevent stock summaries based on inputs from API:
+  - High priority
   - UC3
 
 
