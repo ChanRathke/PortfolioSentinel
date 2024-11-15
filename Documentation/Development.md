@@ -44,7 +44,7 @@
 - Change the directory into the backend folder: `cd test-api`
 - Run `fetch_calls.py` by doing `python fetch_calls.py`
 
-## Docker
+## Replicating via Docker
 
 Alternatively you can run the program in docker.
 
