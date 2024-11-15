@@ -40,18 +40,21 @@
 - Run the following code: `npm run dev`
 - Open the browser by either clicking on the link provided by "Local:" or entering it into your browser manually
     - It should look like this `Local:   http://localhost:5173/`
-- Open another terminal
+- Open a 2nd terminal
 - Change the directory into the backend folder: `cd test-api`
 - Run `fetch_calls.py` by doing `python fetch_calls.py`
 
-## Running in docker
+## Docker
 
-Alternatively instead of running 
+Alternatively you can run the program in docker.
 
 - Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
   ![image](https://github.com/user-attachments/assets/fa05e045-3bdf-430d-a629-f8d0f1d6fc1c)
 - With docker desktop running: 
   - Navigate to the clone of the repository.
-  - either in file explorer or in the command terminal, run the file labeled `start.bat`.
-    (run `backend.bat` for the backend, or `frontend.bat` for the frontend if you want to test them individually).
+  - either in file explorer or in the command terminal, run the file labeled `start.bat`. (run `backend.bat` for the backend, or `frontend.bat` for the frontend if you want to test them individually).
+  - 2 seperate terminals will pop up, one for the front end and one for the backend.
+    - To view the frontend, click on the VITE localhost link that pops up in the terminal (should be `http://localhost:5173/`)
+ 
+    
