@@ -19,7 +19,7 @@ Accutech
 
 ### *People:*
 - Matt Garrett
-- Drew Heiss
+- Jacob Deffendall
 
 ## **Links**
 - [Project description](ProjectDescription.md)
