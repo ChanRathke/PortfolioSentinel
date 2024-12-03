@@ -24,13 +24,18 @@ The user should then see the User Interface of Portfolio Sentinel.
 
 The information on the screen is example information of stock data they could receive from the AI.
 
-![frontendOne](https://github.com/user-attachments/assets/1ba1921c-7cd8-4a16-99a8-3f6b9ed1a4e9)
+![image](https://github.com/user-attachments/assets/e3588330-b027-471c-bb6c-18b7d6d9839a)
+
 
 The user will need to select the dropdown menu in order to choose from a number of questions pertaining to their desired question.
 
-![frontendTwo](https://github.com/user-attachments/assets/629a8e94-c373-49db-a328-01c52b0223fc)
+![image](https://github.com/user-attachments/assets/3a68ea27-ef65-4fc1-ad9f-ebb68d3cec67)
 
 Finally, the user needs to simply select the "Generate Text" button to see the information that the AI has output.
 
-![frontendThree](https://github.com/user-attachments/assets/4b86d9e6-5973-4f76-94be-4bba1fedcaac)
+![image](https://github.com/user-attachments/assets/1723bd29-18e5-4e05-a28e-1f1d3c4ee9bd)
+
+
+![image](https://github.com/user-attachments/assets/4ad9e490-a301-40a9-8cf2-95da717eeaf2)
+
 
