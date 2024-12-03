@@ -11,7 +11,9 @@ Testing criteria for this document:
 The user will begin in the terminal of the program. The user should change the directory to be in the test-project folder, then they can input the following:
 `cd test-project`
 
-Next, simply input: `npm run dev`
+Next, simply input the following commands: 
+  `npm install --legacy-peer-deps`
+  `npm run dev`
 
 The user should then open the browser by either clicking on the link provided by "Local:" or entering it into your browser manually.
 
