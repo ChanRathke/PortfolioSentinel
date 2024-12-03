@@ -10,10 +10,13 @@
    Important files:
      - `package.json` - Defines dependencies and scripts for Node.js.
      - `src` - Contains main source code files.
-     - `public` - Contains assets (images, icons, etc.) to be accesssed by the frontend.
+     - `public` - Contains assets to be accesssed by the frontend.
 
-2. **API (test-api)**
-   - The `test-api` folder contains `document_reader.py` and `summary.py` which handle backend data processing tasks.
+2. **Backend (test-api)**
+   The `test-api` folder contains files which handle backend data processing tasks.
+   Important files:
+   - `stock_info.py` - API calls for stock data retrieval.
+   - `summary.py` - Generates summaries using the API calls.
 
 ## Starting the System
 **Frontend/Backend**:
@@ -27,7 +30,7 @@
 - **VSCode**: Click the trash can icon in the Terminal panel to terminate the process or by pressing `Ctrl+C` (or `Cmd+C` on Mac) in the terminal window where the server is running.
 
 ## Troubleshooting
-- If the server fails to start due to a port conflict, ensure no other services are using the same port (i.e. port 3000 for the frontend).
+- If the server fails to start due to a port conflict, ensure no other services are using the same port (i.e. port 5173 for the frontend).
 - If you encounter any errors related to missing modules, you can rerun `npm install` to make sure that all dependencies are installed.
 ## Source of Errors
 - Open the Developer Tools in your browser using `F12` or `Ctrl+Shift+I` and check the Console tab for any frontend errors
