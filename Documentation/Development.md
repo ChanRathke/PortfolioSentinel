@@ -30,6 +30,7 @@
 - Open the project either through the command line or opening the folder 
 - Open the terminal of the project and run the following commands:
     - `pip install -U google-generativeai`
+    - `npm install --legacy-peer-deps`
     - `npm install`
     - `npm install axios`
     - `npm install flask`
