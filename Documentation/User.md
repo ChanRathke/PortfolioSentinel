@@ -22,20 +22,18 @@ The link should look like this `http://localhost:5173/`
 ## User Interface
 The user should then see the User Interface of Portfolio Sentinel.
 
-The information on the screen is example information of stock data they could receive from the AI.
-
+The user can see a search bar and the number of stocks that they can search from (currently under the search bar).
 ![image](https://github.com/user-attachments/assets/e3588330-b027-471c-bb6c-18b7d6d9839a)
 
-
-The user will need to select the dropdown menu in order to choose from a number of questions pertaining to their desired question.
+The user will need to select from either the menu or manually searching for the stock they want.
 
 ![image](https://github.com/user-attachments/assets/3a68ea27-ef65-4fc1-ad9f-ebb68d3cec67)
 
-Finally, the user needs to simply select the "Generate Text" button to see the information that the AI has output.
+Now, the user can select a question from the dropdown menu for a number of different questions that they can ask the AI. 
 
 ![image](https://github.com/user-attachments/assets/1723bd29-18e5-4e05-a28e-1f1d3c4ee9bd)
 
-
+Finally, the user needs to simply select the "Get Answer" button to see the information that the AI has output.
 ![image](https://github.com/user-attachments/assets/4ad9e490-a301-40a9-8cf2-95da717eeaf2)
 
 
