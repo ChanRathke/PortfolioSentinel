@@ -37,12 +37,12 @@
     - `npm install vite`
 ## To Run the Program
 - Open the terminal
-- Change the directory into the Frontend folder: `cd test-project`
+- Change the directory into the Frontend folder: `cd Frontend`
 - Run the following code: `npm run dev`
 - Open the browser by either clicking on the link provided by "Local:" or entering it into your browser manually
     - It should look like this: `http://localhost:5173/`
 - Open a 2nd terminal
-- Change the directory into the backend folder: `cd test-api`
+- Change the directory into the backend folder: `cd Backend`
 - Run `fetch_calls.py` by doing `python fetch_calls.py`
 
 ## Replicating via Docker
