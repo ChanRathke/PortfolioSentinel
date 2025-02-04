@@ -8,8 +8,8 @@ Testing criteria for this document:
 # Running the Program
 
 ## Beginning in the Command Line
-The user will begin in the terminal of the program. The user should change the directory to be in the test-project folder, then they can input the following:
-`cd test-project`
+The user will begin in the terminal of the program. The user should change the directory to be in the Frontend folder, then they can input the following:
+`cd Frontend`
 
 Next, simply input the following commands: 
   `npm install --legacy-peer-deps`
