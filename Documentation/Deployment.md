@@ -5,22 +5,23 @@
 - **Python**: Install Python (version 3 or above).
 
 ## Folder Structure and File Placement
-1. **Frontend (test-project)**
-   Navigate to `test-project` as the main application directory.
+1. **Frontend**
+   Navigate to `Frontend` as the main application directory.
    Important files:
      - `package.json` - Defines dependencies and scripts for Node.js.
      - `src` - Contains main source code files.
      - `public` - Contains assets to be accesssed by the frontend.
 
-2. **Backend (test-api)**
-   The `test-api` folder contains files which handle backend data processing tasks.
+2. **Backend**
+   The `Backend` folder contains files which handle backend data processing tasks.
    Important files:
    - `stock_info.py` - API calls for stock data retrieval.
    - `summary.py` - Generates summaries using the API calls.
+   - `fetch_calls.py` - Main class for communicating the frontend and the backend
 
 ## Starting the System
 **Frontend/Backend**:
-- Open the terminal and navigate to the `test-project` directory.
+- Open the terminal and navigate to the `Frontend` directory.
 - Run `npm install` to install dependencies.
 - Start the server with:
   - `npm run dev`
