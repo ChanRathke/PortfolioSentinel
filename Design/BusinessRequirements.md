@@ -1,4 +1,4 @@
 # Business Requirements
 
 ## **BR1** 
-- Keep Advisors updated on changes within their clientelles investments so that they can more easily inform their client about it.
+- Analyzing investments to help Advisors find vulnerabilities and risks that can be presented to a client in a meaningful and insightful way.
