@@ -1,7 +1,7 @@
 # Portfolio Sentinel
 
 ## **Summary**
-Portfolio Sentinel is a program that will provide the user with information based on recent changes of stocks and an explanation as to why it occurred. The users will receive a quarterly update in an email format from the program to will keep them updated on the current state. 
+Portfolio Sentinel is a program that will provide financial advisors with a new method to access recent information on stocks and a process to build portfolios and determine their usability. This is done with an artificial intelligence called Gemini. It analyzes the portfolios based on recent information of the stocks, their allocation in the portfolio, and the comparison of each stock to another.  
 
 
 ## **Team Members**
