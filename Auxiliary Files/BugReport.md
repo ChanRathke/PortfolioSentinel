@@ -3,7 +3,7 @@ Bug Report
 ## 2-22-2025 
 ## Search Bug
 
-Video link - https://drive.google.com/file/d/1fOoStlv37BTOUjoI-IEMJOzEh2UiabHG/view?usp=sharing 
+Replication video link - https://drive.google.com/file/d/1fOoStlv37BTOUjoI-IEMJOzEh2UiabHG/view?usp=sharing 
 
 ## What happened?
 When searching in the search bar, after typing the first letter, the search is alphabetical rather than by the first letter of the stock ticker. 
