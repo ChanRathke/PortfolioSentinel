@@ -3,7 +3,10 @@ Bug Report
 ## 2-22-2025 
 ## Search Bug
 
-Replication video link - https://drive.google.com/file/d/1fOoStlv37BTOUjoI-IEMJOzEh2UiabHG/view?usp=sharing 
+
+[Issues link](https://github.com/ChanRathke/PortfolioSentinel/issues/1) 
+
+[Replication video](https://drive.google.com/file/d/1fOoStlv37BTOUjoI-IEMJOzEh2UiabHG/view?usp=sharing) 
 
 ## What happened?
 When searching in the search bar, after typing the first letter, the search is alphabetical rather than by the first letter of the stock ticker. 
